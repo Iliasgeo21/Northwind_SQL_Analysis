@@ -71,38 +71,124 @@ northwind-sql-excel-dashboard/
 | **Excel**                 | KPI cards, charts, dashboards        |
 | **Git & GitHub**          | Version control & project publishing |
 
- ## 📜 SQL Topics Covered
- 
-•	Aggregations: COUNT, SUM, AVG
+## 🗃️ Dataset
 
-•	Joins: INNER, LEFT
+The project uses the Northwind sample database, which contains information about:
 
-•	Grouping & ordering
+•	Customers
 
-•	KPIs and business metrics
+•	Orders
 
-•	Data cleaning logic
+•	Employees
 
-•	Time-series analysis
+•	Products
 
-•	Ranking using ORDER BY
+•	Categories
 
-•	Category & country segmentation
+•	Suppliers
 
-## 📈 Dashboard Preview
+•	Shippers
 
-##  🚀 How to Reproduce the Analysis
+## 🧠 SQL Analysis Overview
 
-1.	Download the Northwind SQLite database
+The analysis includes 14 SQL queries, covering:
 
-2.	Open it in DB Browser for SQLite
+KPIs :
 
-3.	Run the SQL queries located in /sql_queries/
+•	Total Customers
 
-4.	Export each result to Excel
+•	Total Orders
 
-5.	Build the dashboard (or use my completed version)
+•	Total Products
 
+•	Total Revenue
+
+•	Average Order Value
+
+•	Customers Without Orders
+
+Aggregated Insights :
+
+•	Sales by Category
+
+•	Sales by Month
+
+•	Sales by Employee
+
+•	Top Selling Products
+
+•	Top Products by Revenue
+
+•	Top Countries by Sales
+
+•	Top Customers
+
+•	Orders by Employee
+
+All query results were exported to Excel and used to build the dashboard.
+
+## 📊 Excel Dashboard
+
+The interactive Excel dashboard includes:
+
+KPI Cards : 
+
+•	Total Customers
+
+•	Total Orders
+
+•	Total Products
+
+•	Revenue
+
+•	Average Order Value
+
+Visualizations :
+
+•	Sales by Category (bar chart)
+
+•	Sales by Month (line chart)
+
+•	Top Selling Products
+
+•	Top Products by Revenue
+
+•	Top Customers
+
+•	Top Countries by Sales
+
+•	Orders by Employee
+
+The dashboard provides a clean overview of company performance and insights
+
+
+##  🚀 How to Use This Project
+
+1.	Clone the repository
+   
+ git clone https://github.com/Iliasgeo21/Northwind_SQL_Analysis.git
+
+2.  Open northwind.db using DB Browser for SQLite
+
+3. Run the SQL queries in the sql_queries/ folder
+
+4.  Open the dashboard in Excel:
+
+    dashboard/Northwind_Dashboard.xlsx
+
+5. Explore KPIs, charts, and insights
+
+##  📈 Example Insights
+
+•	The USA leads in total sales
+
+•	Certain product categories consistently outperform others
+
+•	Top customers and best-performing employees can be identified
+
+•	Revenue trends exhibit seasonality across months
+
+  
 ## 🧾 Future Improvements
 
 •	Convert the dashboard to Power BI
@@ -112,3 +198,7 @@ northwind-sql-excel-dashboard/
 •	Create automated KPI refresh scripts
 
 •	Add interactive filtering in Excel or Power BI
+
+## 📄 License
+
+This project is provided under the MIT License
