@@ -55,8 +55,7 @@ northwind-sql-excel-dashboard/
 ├── dashboard/
 │   └── northwind_sql_results.xlsx
 │
-├── images/
-│   └── dashboard_preview.png
+├── LICENSE
 │
 └── README.md
 
