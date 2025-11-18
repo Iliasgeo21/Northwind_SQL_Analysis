@@ -1,3 +1,8 @@
+![Made with SQL](https://img.shields.io/badge/Made%20with-SQL-blue)
+![Excel Dashboard](https://img.shields.io/badge/Excel-Dashboard-green)
+![License](https://img.shields.io/github/license/Iliasgeo21/Northwind_SQL_Analysis)
+
+
 # 📊 Northwind SQL Analysis
 
 Comprehensive SQL Exploration & Interactive Business Dashboard
